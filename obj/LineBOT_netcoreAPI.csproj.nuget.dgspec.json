@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Maple_CivilMap\\LineBotDesigner\\LineBOT_netcoreAPI\\LineBOT_netcoreAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\Maple_CivilMap\\LineBotDesigner\\LineBOT_netcoreAPI\\LineBOT_netcoreAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Maple_CivilMap\\LineBotDesigner\\LineBOT_netcoreAPI\\LineBOT_netcoreAPI.csproj",
+        "projectName": "LineBOT_netcoreAPI",
+        "projectPath": "D:\\Maple_CivilMap\\LineBotDesigner\\LineBOT_netcoreAPI\\LineBOT_netcoreAPI.csproj",
+        "packagesPath": "C:\\Users\\sally\\.nuget\\packages\\",
+        "outputPath": "D:\\Maple_CivilMap\\LineBotDesigner\\LineBOT_netcoreAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sally\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "linebotsdk": {
+              "target": "Package",
+              "version": "[2.4.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
